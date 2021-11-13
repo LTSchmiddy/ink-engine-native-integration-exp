@@ -1,0 +1,20 @@
+{
+  "name": "inkjs-in-duktape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uglify-js": "^3.14.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-minify": "^0.5.1",
+    "browserify": "^17.0.0",
+    "inkjs": "^2.0.0"
+  }
+}

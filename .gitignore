@@ -1,0 +1,13 @@
+/.vscode
+/build
+/node_modules
+/vcpkg
+/venv
+/run
+/_user_private
+/old
+**/__pycache__
+
+/CMakeUserPresets.json
+/mct_user_settings.json
+/mct_user_toolchain.cmake
