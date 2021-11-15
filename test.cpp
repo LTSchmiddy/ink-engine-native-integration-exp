@@ -1,14 +1,15 @@
 #include <iostream>
-#include <fstream>
 
-#include "duktape.h"
-#include "ink_duktape.h"
+#include "ink_engine.h"
 
 
 
 int main() {
     init_ink();
-    duk_eval_string(ink_ctx, "print('Hello world from Javascript!');");
+    load_js_file("story.js");
+    duk_eval_string(ink_ctx, "var story = new inkjs.Story(storyContent);");
 
-    shutdown_ink();
+
+
+    shutdown_ink(); 
 }

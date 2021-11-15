@@ -12,6 +12,12 @@ set (CMAKE_CXX_STANDARD 17)
 
 include_directories(${TRIPLET_INCLUDE_DIRS}) 
 
+if (CMAKE_BUILD_TYPE STREQUAL "Debug")
+    message(STATUS "Setting preprocessor debug flag...")
+    add_definitions(-DDEBUG)
+endif()
+
+
 add_executable(${TARGET_NAME} test.cpp)
 add_subdirectory(./src/cpp)
 include_directories(./src/cpp)

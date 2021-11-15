@@ -13,8 +13,11 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-minify": "^0.5.1",
     "browserify": "^17.0.0",
-    "inkjs": "^2.0.0"
+    "inkjs": "^2.0.0",
+    "smap": "^0.2.0",
+    "unminify": "^1.1.0"
   }
 }

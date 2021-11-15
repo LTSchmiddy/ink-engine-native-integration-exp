@@ -1,6 +1,7 @@
 target_sources(
     ${TARGET_NAME} 
     PUBLIC
-    "./duktape.c"
-    "./ink_duktape.cpp"
+    "./ink_engine.cpp"
 )
+
+add_subdirectory("./duktape")
